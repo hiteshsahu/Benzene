@@ -1,6 +1,10 @@
 # Benzene
 Super cool Android experiment which draw polygons in beutiful fashions.
 
+##Inspired by
+
+![Alt text](https://github.com/hiteshsahu/Benzene/blob/master/Hexgrid-master/HexGridDemo.gif "Inspiration")
+
 ###This project demnstrates
 
 - How to draw various polygon shapes with canvas
