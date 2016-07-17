@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/center_chain" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/hex1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/center_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/hex11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex13"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/center_chain" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/hex21"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex23"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/hex24"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
